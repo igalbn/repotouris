@@ -1,6 +1,7 @@
 const attractionsText = `
 *********************************************
 Rijksmuseum
+Giethoorn
 
 
 
