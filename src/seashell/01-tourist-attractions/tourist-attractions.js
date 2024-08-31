@@ -14,6 +14,10 @@ const youtubeLinks = [
     {
         'title': 'Rijksmuseum Welkom!',
         'url':'https://www.youtube.com/watch?v=AOqdCNjq-x0'
+    },
+    {
+        'title': 'No Roads, No Cars, Just Boats',
+        'url':'https://www.youtube.com/watch?v=R3t1cg2ZOxc'
     }
 ];
 
