@@ -2,7 +2,7 @@ const attractionsText = `
 *********************************************
 Rijksmuseum
 Giethoorn
-
+Nigeria National Museum 
 
 
 
