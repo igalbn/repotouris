@@ -29,4 +29,8 @@ ships = [
 
 
 
-print(ships)
+print('Data about the biggest cruise ship')
+print('Name: ', ships[0]['name'])
+print('Gross Tonnage: ' , ships[0]['gross_tonnage'])
+print('Length: ', ships[0]['length'])
+
