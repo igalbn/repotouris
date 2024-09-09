@@ -12,12 +12,16 @@ Nigeria National Museum
 
 const youtubeLinks = [
     {
-        'title': 'Rijksmuseum Welkom!',
+        'title': `Rijksmuseum Welkom!`,
         'url':'https://www.youtube.com/watch?v=AOqdCNjq-x0'
     },
     {
-        'title': 'No Roads, No Cars, Just Boats',
+        'title': `No Roads, No Cars, Just Boats`,
         'url':'https://www.youtube.com/watch?v=R3t1cg2ZOxc'
+    },
+    {
+        'title': `Exploring Nigeria's Rich Heritage: A Tour of\n    the National Museum, Lagos Island. Nigeria`,
+        'url':'https://www.youtube.com/watch?v=NfzFjVlH9pY'
     }
 ];
 
