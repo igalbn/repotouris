@@ -27,10 +27,13 @@ ships = [
     }
 ]
 
+print('Biggest five cruise ships\n')
 
-
-print('Data about the biggest cruise ship')
-print('Name: ', ships[0]['name'])
-print('Gross Tonnage: ' , ships[0]['gross_tonnage'])
-print('Length: ', ships[0]['length'])
+for ship in ships:
+    print('Name:', ship['name'])
+    print('Gross Tonnage:', ship['gross_tonnage'])
+    print('Length:', ship['length'])
+    
+    
+    print('')
 
