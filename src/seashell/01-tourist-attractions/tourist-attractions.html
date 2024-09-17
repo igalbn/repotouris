@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧳</text></svg>">
+    <title>01 Tourist Attractions</title>
+</head>
+<body>
+    
+
+    <script src="tourist-attractions.js" defer></script>
+    <script defer>
+        window.onload = () => {
+            drawAttractions();
+        }
+
+        function drawAttractions(){
+            youtubeLinks.forEach(element => {
+
+                const videoTitleElem = document.createElement('p');
+                videoTitleElem.textContent = element['title'];
+                document.body.appendChild(videoTitleElem);
+
+                const videoLinkElem = document.createElement('a');
+                videoLinkElem.href = element['url'];
+                videoLinkElem.textContent = element['url'];
+                document.body.appendChild(videoLinkElem);
+
+            });
+        }
+    </script>
+</body>
+</html>
